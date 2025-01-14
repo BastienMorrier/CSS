@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D74949;
+    font-family: "Roboto", serif;
+}
+
+main{
+    width: 1110px;
+    height: 615px;
+    background-color: #F3F3F3;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+h1{
+    top: 100px;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 1000px;
+}
+
+.firstP{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-transform: uppercase
+}
+
+.firstP span{
+    color: #8F2727;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+footer{
+    background-color: #3A3A3A;
+    text-align: center;
+    padding: 35px 0px;
+    position: relative;
+}
+
+footer p{
+    color: white;
+}
+
+/* IMG */
+
+.img{
+    background-color: white;
+    width: 200px;
+    border-radius: 15px;
+    /* box-shadow: #3A3A3A; */
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: rgba(40, 42, 43, 0.2) 0px 8px 24px;
+    position: relative;
+}
+.img img{
+    width: 200px;
+    height: 185px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.icones{
+    margin-top: 10px;
+}
+
+.icones img{
+    width: 18px;
+    height: 18px;
+    border-radius: 0px;
+    margin-right: 5px;
+}
+
+.txt{
+    height: 80px;
+    margin: 15px;
+}
+
+/* Cricle */
+.circle{
+    width: 54px;
+    height: 54px;
+    background-color: #D9D9D9;
+    border-radius: 150px;
+    position: absolute;
+    bottom: -30px;
+    right: -10px;
+}
+
+/* Mini rec */
+.miniRec{
+    height: 2px;
+    width: 49px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 106px;
+}
+
+.rectangle{
+    height: 27px;
+    width: 13px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 0px;
+    left: 51vw;
+}
