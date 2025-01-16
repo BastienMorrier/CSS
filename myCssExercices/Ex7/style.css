@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    height: 100vh;
+    gap: 9px;
+    background-color: black;
+}
+
+.carreRouge {
+    background-color: red;
+    grid-column-start: 1; /* Place l'élément dans la 2ème colonne */
+    grid-column-end: 2; /* S'étend jusqu'à la 4ème colonne */
+    grid-row-start: 1; /* Commence à la 1ère ligne */
+    grid-row-end: 2; /* S'étend jusqu'à la 3ème ligne */
+}
+
+.whiteUn{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 5; 
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+
+.whiteDeux{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    grid-row-start: 2;
+    grid-row-end: 4; 
+}
+
+.whiteTrois{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    grid-row-start: 2;
+    grid-row-end: 4; 
+}
+
+.bleu{
+    background-color: blue;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    border-bottom: 10px solid black;
+}
+
+.whiteQuatre{
+    background-color: white;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    grid-row-start: 3;
+    grid-row-end: 5; 
+}
+
+.whiteCinq{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.jaune{
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gris{
+    background-color: darkgray;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    grid-row-start: 4;
+    grid-row-end: 5;
+}

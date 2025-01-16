@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    height: 100vh;
+    gap: 9px;
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+    grid-column-start: 1; /* Place l'élément dans la 2ème colonne */
+    grid-column-end: 2; /* S'étend jusqu'à la 4ème colonne */
+    grid-row-start: 1; /* Commence à la 1ère ligne */
+    grid-row-end: 2; /* S'étend jusqu'à la 3ème ligne */
+}
+
+.grey-square{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 5; 
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
